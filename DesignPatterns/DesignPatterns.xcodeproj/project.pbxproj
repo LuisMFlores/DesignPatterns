@@ -13,6 +13,8 @@
 		ABCDB0BA261A0CC7007D91AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCDB0B8261A0CC7007D91AD /* Main.storyboard */; };
 		ABCDB0BC261A0CCB007D91AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCDB0BB261A0CCB007D91AD /* Assets.xcassets */; };
 		ABCDB0BF261A0CCB007D91AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCDB0BD261A0CCB007D91AD /* LaunchScreen.storyboard */; };
+		ABCDB0EA261A0DAC007D91AD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDB0E9261A0DAC007D91AD /* User.swift */; };
+		ABCDB0EE261A56D0007D91AD /* BoundTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDB0ED261A56D0007D91AD /* BoundTextfield.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		ABCDB0BB261A0CCB007D91AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABCDB0BE261A0CCB007D91AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABCDB0C0261A0CCB007D91AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABCDB0E9261A0DAC007D91AD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ABCDB0ED261A56D0007D91AD /* BoundTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundTextfield.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				ABCDB0BB261A0CCB007D91AD /* Assets.xcassets */,
 				ABCDB0BD261A0CCB007D91AD /* LaunchScreen.storyboard */,
 				ABCDB0C0261A0CCB007D91AD /* Info.plist */,
+				ABCDB0E9261A0DAC007D91AD /* User.swift */,
+				ABCDB0ED261A56D0007D91AD /* BoundTextfield.swift */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABCDB0EA261A0DAC007D91AD /* User.swift in Sources */,
+				ABCDB0EE261A56D0007D91AD /* BoundTextfield.swift in Sources */,
 				ABCDB0B7261A0CC7007D91AD /* ViewController.swift in Sources */,
 				ABCDB0B3261A0CC7007D91AD /* AppDelegate.swift in Sources */,
 				ABCDB0B5261A0CC7007D91AD /* SceneDelegate.swift in Sources */,
